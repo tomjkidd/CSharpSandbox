@@ -1,0 +1,16 @@
+﻿// After adding data, use jsonlint to check for validity issues.
+{
+	"TableName": "[ref].[Status]",
+	"Columns": [
+		{ "Name": "StatusId", "Type": "int" },
+		{ "Name": "Name" , "Type": "string" }
+	],
+	"PrimaryKeys": ["StatusId"],
+	"PreMergeStatements":["SET IDENTITY_INSERT [ref].[Status] ON;"],
+	"PostMergeStatements":["SET IDENTITY_INSERT [ref].[Status] OFF;"],
+	"Data": [
+		 ["1","Draft"],
+		 ["2","Published"],
+		 ["3","Archived"]
+	]
+}

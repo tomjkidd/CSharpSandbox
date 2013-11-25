@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSandbox", "CSharpSandbox\CSharpSandbox.csproj", "{3E7C3C62-B549-43A2-8B46-180DFF19C396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseFiles", "UseFiles\UseFiles.csproj", "{5DA9BDF6-E7A4-47BA-92D0-7581E11B7722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlMergeScriptGenerator", "SqlMergeScriptGenerator\SqlMergeScriptGenerator.csproj", "{BA2B6E8A-73B6-4E34-804D-2BFA0CF2637D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseJson", "UseJson\UseJson.csproj", "{CB060E32-0642-48F0-9FC5-9EABA9609CD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E7C3C62-B549-43A2-8B46-180DFF19C396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7C3C62-B549-43A2-8B46-180DFF19C396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7C3C62-B549-43A2-8B46-180DFF19C396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7C3C62-B549-43A2-8B46-180DFF19C396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA9BDF6-E7A4-47BA-92D0-7581E11B7722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA9BDF6-E7A4-47BA-92D0-7581E11B7722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA9BDF6-E7A4-47BA-92D0-7581E11B7722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA9BDF6-E7A4-47BA-92D0-7581E11B7722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2B6E8A-73B6-4E34-804D-2BFA0CF2637D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2B6E8A-73B6-4E34-804D-2BFA0CF2637D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2B6E8A-73B6-4E34-804D-2BFA0CF2637D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2B6E8A-73B6-4E34-804D-2BFA0CF2637D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB060E32-0642-48F0-9FC5-9EABA9609CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB060E32-0642-48F0-9FC5-9EABA9609CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB060E32-0642-48F0-9FC5-9EABA9609CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB060E32-0642-48F0-9FC5-9EABA9609CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

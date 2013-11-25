@@ -1,0 +1,19 @@
+﻿{
+	"TableName": "[dbo].[Group]",
+	"Columns": [
+		{ "Name": "GroupId", "Type": "int" },
+		{ "Name": "ManagerDesignator" , "Type": "string" },
+		{ "Name": "Name" , "Type": "string" }
+	],
+	"PrimaryKeys": ["GroupId"],
+	"PreMergeStatements":["SET IDENTITY_INSERT [dbo].[Group] ON;"],
+	"PostMergeStatements":["SET IDENTITY_INSERT [dbo].[Group] OFF;"],
+	"Data": [
+		 {"GroupId":"1", "ManagerDesignator":"corp\\tkidd", "Name":"Tom's Group"},
+		 {"GroupId":"2", "ManagerDesignator":"corp\\delkins", "Name":"Derek's Group"},
+		 {"GroupId":"3", "ManagerDesignator":"corp\\ksoohoo", "Name":"Kimi's Group"},
+		 {"GroupId":"4", "ManagerDesignator":"corp\\cdibbs", "Name":"Chris's Group"},
+		 {"GroupId":"5", "ManagerDesignator":"corp\\sshirley", "Name":"Sam's Group"},
+		 {"GroupId":"6", "ManagerDesignator":"corp\\seklund", "Name":"Steve's Group"}
+	]
+}

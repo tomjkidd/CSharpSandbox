@@ -1,0 +1,20 @@
+﻿// After adding data, use jsonlint to check for validity issues.
+{
+	"TableName": "[dbo].[Group]",
+	"Columns": [
+		{ "Name": "GroupId", "Type": "int" },
+		{ "Name": "ManagerDesignator" , "Type": "string" },
+		{ "Name": "Name" , "Type": "string" }
+	],
+	"PrimaryKeys": ["GroupId"],
+	"PreMergeStatements":["SET IDENTITY_INSERT [dbo].[Group] ON;"],
+	"PostMergeStatements":["SET IDENTITY_INSERT [dbo].[Group] OFF;"],
+	"Data": [
+		 ["1", "corp\\tkidd", "Tom's Group"],
+		 ["2", "corp\\delkins", "Derek's Group"],
+		 ["3", "corp\\ksoohoo", "Kimi's Group"],
+		 ["4", "corp\\cdibbs", "Chris's Group"],
+		 ["5", "corp\\sshirley", "Sam's Group"],
+		 ["6", "corp\\seklund", "Steve's Group"]
+	]
+}

@@ -1,0 +1,8 @@
+﻿// Include the list of files, in the order to process them
+./DataFiles/ref.Status.txt
+./DataFiles/dbo.Group.txt
+//dbo.Category.txt
+//dbo.Highlight.txt
+//dbo.Tag.txt
+//dbo.lnkCategoryHighlight.txt
+//dbo.lnkTagHighlight.txt
